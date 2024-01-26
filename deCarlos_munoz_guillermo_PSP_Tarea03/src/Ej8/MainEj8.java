@@ -42,12 +42,10 @@ public class MainEj8 extends JFrame {
                 } else if (hilo2.isWinner()) {
                     hilo1.interrupt();
                     hilo3.interrupt();
-                    labelGanador.setText("gandor hilo 2");
                     break;
                 } else if (hilo3.isWinner()) {
                     hilo1.interrupt();
                     hilo2.interrupt();
-                    labelGanador.setText("gandor hilo 3");
                     break;
                 }
             }
